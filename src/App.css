@@ -1,0 +1,57 @@
+
+.rbg{
+    background-color: #F2D1B1 !important;
+}
+
+
+.bgimg{
+  background-image: url("../public/Image/img/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+   /* Set the height to 100% of the viewport height */
+}
+
+.bgimg2{
+  background-image: url("../public/Image/img/mobile.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; /* Set the height to 100% of the viewport height */
+}
+
+ .mouse{
+    cursor: pointer;
+  }
+
+  .image{
+    height: 200px !important;
+    width: 100%;
+  }
+
+  .footer{
+    background-color: #F0FFFF;
+  }
+
+  .float{
+    float: inline-end;
+    clear: both;
+  }
+
+  @media screen and (max-width: 780px) {
+    .footer{
+      text-align: center !important;
+    }
+    .hidecard{
+      display: none !important;
+    }
+    .btn{
+      width: 100%;
+      margin: 10px;
+    }
+    .float{
+      float: none;
+    }
+
+  }
